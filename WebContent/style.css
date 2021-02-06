@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+.header{
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/sofa2.jpg);
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+	font-family:sans-serif;
+}
+
+.header-event{
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/ball.jpg);
+	background-size:cover;
+	display:flex;
+	justify-content:center;
+	font-family:sans-serif;
+}
+
+h1{
+	color:#000000;
+	margin-bottom:25px;
+	font-size:32px;
+	letter-spacing:2px;
+	text-align:center;
+}
+
+.search-field{
+	height:25px;
+	padding:10px;
+	border:none;
+	border-radius:25px;
+	outline:none;
+}
+
+.business{
+	width:400px;
+}
+
+.search-btn{
+	height:45px;
+	width:90px;
+	background:#ff91ff;
+	border:none;
+	color:#000;
+	border-radius:25px;
+}
+
+.search-btn:hover{
+	background:#d500d5;
+	cursor:pointer;
+}
+
+.form-box{
+	background:rgba(0,0,0,0.5);
+	padding:20px;
+}
